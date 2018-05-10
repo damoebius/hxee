@@ -1,0 +1,11 @@
+-lib modular
+-lib react
+-lib react-router
+-lib redux
+
+-cp src
+
+-D react_hot
+
+-js build/index.js
+-main Main
