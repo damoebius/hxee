@@ -1,0 +1,17 @@
+node_modules/
+yarn-error.log
+vscode-project.hxml
+www/
+*.hxproj
+.haxelib/
+.idea
+out
+build
+*.vmdk
+*.iml
+.sass-cache
+*.ova
+*.tar.gz
+npm-debug.log
+*.hxproj
+.cache

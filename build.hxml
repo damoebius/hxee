@@ -1,4 +1,4 @@
--lib modular
+-lib haxe-loader
 -lib react
 -lib react-router
 -lib redux
@@ -7,5 +7,5 @@
 
 -D react_hot
 
--js build/index.js
--main Main
+-js app.js
+-main App
