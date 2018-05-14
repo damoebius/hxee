@@ -1,4 +1,6 @@
-import js.Browser.document.*;
+import js.html.DivElement;
+import js.html.Element;
+import js.html.BodyElement;
 
 class Dom {
     static var TEMP = js.Browser.document.createDivElement();
