@@ -45,10 +45,13 @@ module.exports = {
     devtool: sourcemapsMode,
     // Live development server (serves from memory)
     devServer: {
+	host: '0.0.0.0',
         contentBase: dist,
         compress: true,
+	open: true,
         port: 9000,
         overlay: true,
+	disableHostCheck: true,
         hot: true
     },
     // List all the processors

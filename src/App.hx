@@ -11,7 +11,7 @@ class App {
 
     public function new() {
         Dom.body().appendChild(Dom.html('
-            <h1>Welcome to Webpack + haxe</h1>
+            <h1>Welcome to Webpack + haxe :)</h1>
         '));
 
         // Code splitting
